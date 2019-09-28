@@ -2,7 +2,7 @@
 
 **Overview**
  
-A Node, Express, Handlebars, and MySQL burger app that lets users input the names of burgers they'd like to eat... and then devour them! Please check out the launched app on Heroku!The site uses Node and MySQL to query and route data in the app, and Handlebars to generate HTML.
+A Node, Express, Handlebars, and MySQL burger app that lets users input the names of burgers they'd like to eat and then devour them!  The site uses Node and MySQL to query and route data in the app, and Handlebars to generate HTML. Please check out the launched app on Heroku!
 
 Burger is a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, app will display the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page. Burger app will store every burger in a database, whether devoured or not.
 
