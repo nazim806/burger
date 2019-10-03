@@ -16,4 +16,4 @@ UPDATE a selected burger by clicking "Devour It", which... * hits an /burger/eat
 CREATE a new burger using the "Place Order" form, which... * hits a /burger/create route in Express to insert a new burger into the MySQL database * re-routes the webpage back to the index, where the burger is now ready to be eaten column (via Handlebars)
 
 
-![burger image] (./assets/img/burger-page.png)
+![burger image] (/assets/img/burger-page.png)
