@@ -3,7 +3,7 @@ const methodOverride = require("method-override");
 const app = express();
 const bodyParser = require("body-parser");
 
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.static("public"));
 
@@ -19,4 +19,7 @@ const routes = require("./controllers/burgers_controller.js");
 
 app.use("/", routes);
 
-app.listen(port);
+
+app.listen(PORT, function () {
+    console.log("Server listening on: http://localhost: " + PORT);
+});
